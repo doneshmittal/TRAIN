@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(100, 85, 197);
+}
+.heading{
+    background-color: #c9622a;
+}
+.para{
+    background-color: rgba(51,170,51,0.3);
+    width: 100px;
+    margin-left: 100px;
+    text-align: center;
+}
+/* Dimension */
+.box{
+    background-color: aqua;
+    width:200px;
+    height:90px;
+    font-size: 2em;  
+    border-radius: 50px;
+    text-align: center;
+}
+.heading{
+    width:40%;
+    height: 100px;
+    /* margin: 100px 300px 30px 50px;    TRBL */
+      margin: 100px 200px  /* vertical horizontal */
+     /* margin: 30px; */
+     /* margin-left: 30px; */
+     padding: 3%;
+     text-align: center;
+} 
+
+
+img{
+    width:10px;
+    height:10px;
+    border:10px solid  red; 
+    
+    
+}
+.box{
+    border-radius: 50px;
+}
+/* dispaly and position  */
+h3{
+    inline-size: 30%;
+}
+div{
+    width: 200px;
+    height:200px;
+}
+.bbox1{
+    background-color: red;
+    position: static;
+}
+.bbox2{
+    background-color: green;
+}
+.bbox3{
+    background-color: blue;
+    margin-block-start: 50px;
+}

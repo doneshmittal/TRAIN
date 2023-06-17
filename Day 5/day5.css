@@ -1,0 +1,36 @@
+/* Type selector */
+body {
+    color:cadetblue;
+    background-color:azure;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Class Selector */
+.first{
+    color:black;
+}
+.large{
+    font-size: 30px;
+}
+
+/* Id selector */
+#eklist{
+    background-color: brown;
+}
+
+/* Attribute selector */
+a[href="mittalgroups.com"]{
+    color:red;
+    text-decoration: none;
+}
+input[type="text"]{
+    background-color: blue;
+    color:white;
+}
+
+.first:hover{
+    color:orange;
+}
+*{
+    margin: 5%;
+}
